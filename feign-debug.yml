@@ -17,3 +17,6 @@ feign:
   hystrix:
     # 开启熔断器
     enabled: true
+
+pupil:
+  val: 真好
