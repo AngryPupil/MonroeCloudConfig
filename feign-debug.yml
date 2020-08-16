@@ -1,0 +1,17 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9620/eureka
+  instance:
+    prefer-ip-address: true
+spring:
+  application:
+    # 指定服务名
+    name: pupil-eureka-feign
+server:
+  port: 9622
+
+feign:
+  hystrix:
+    # 开启熔断器
+    enabled: true
