@@ -8,6 +8,8 @@ spring:
   application:
     # 指定服务名
     name: pupil-eureka-feign
+  rabbitmq:
+    host: localhost
 server:
   port: 9622
 
